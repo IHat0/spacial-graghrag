@@ -66,7 +66,6 @@ Below is a normalized comparison of Spatial GraphRAG against four established na
 
 * **The Takeaway:** While NavMesh excels at static query times, it falls apart during dynamic world mutations (taking up to 200ms to rebuild a tile). Spatial GraphRAG is the only architecture that simultaneously achieves low memory, fast queries, near-instant mutations, and lightweight token footprints.
 
-<img width="2778" height="1377" alt="chart6_cost_projection" src="https://github.com/user-attachments/assets/ccfb4b7d-8726-492f-8845-ecb7b1679fea">
 
 ---
 
@@ -79,6 +78,7 @@ Memory Profiler:     tracemalloc (Current + Peak allocation tracking)
 Timer:               time.perf_counter() (Sub-microsecond resolution)
 Scale Test Size:     10,000 nodes / 25,000 edges
 Seed Value:          42 (Deterministic, fully reproducible)
+```
 
 # Tri-Partite Memory
 
