@@ -80,49 +80,5 @@ Scale Test Size:     10,000 nodes / 25,000 edges
 Seed Value:          42 (Deterministic, fully reproducible)
 ```
 
-# Tri-Partite Memory
-
-The core framework managing multi-layered system logic and asynchronous episodic-to-semantic compilation for the M.A.C ecosystem.
-
----
-
-## 📊 Empirical Benchmarks & Performance Proofs
-
-The following performance metrics were captured using the **Asynchronous Sleep Consolidation Simulator** across a 10-day operational lifecycle.
-
-### 1. Context Window Flatlining (The Core Innovation)
-Standard AI agents experience linear-to-exponential token accumulation, leading to performance degradation and inevitable context window exhaustion. Tri-Partite Memory completely flattens this curve.
-
-![Context Window Flatline Proof](assets/chart2_context_flatline.png)
-<img width="2777" height="1377" alt="chart2_context_flatline" src="https://github.com/user-attachments/assets/0f1c55e2-e046-4023-8352-321e2f84bcc6" />
-
-* **Without Pillar 3:** Context window balloons exponentially, hitting **30,150 tokens** by Day 10.
-* **With Pillar 3:** Context window stably flatlines, maintaining a lean footprint of just **190 tokens** while preserving absolute operational awareness.
-
-### 2. Token Compression Efficiency
-Through episodic-to-semantic compilation, raw system and environmental logs are compressed asynchronously when the agent enters an idle/sleep state.
-
-![Token Compression Ratio](assets/chart1_token_compression.png)
-<img width="2777" height="1377" alt="chart1_token_compression" src="https://github.com/user-attachments/assets/b6b828d8-a71d-4636-be86-858918baa060" />
-
-* **Compression Ratio:** Achieves a consistent **95.6% to 97.7% reduction** in raw token count daily.
-* **Result:** Heavy, temporary episodic memories are distilled into lightweight, permanent semantic facts.
-
-### 3. Critical Fact Retention & Latency
-Optimizing for compression does not mean sacrificing memory integrity. The consolidation pipeline runs entirely in the background without blocking execution threads.
-
-| Consolidation Latency | Fact Retention Rate |
-| :---: | :---: |
-| ![Sleep Consolidation Latency](assets/chart3_sleep_latency.png) | ![Critical Survival Fact Retention Rate](assets/chart4_retention_rate.png) |
-| **Near-Zero Overhead:** Active processing runs asynchronously during agent idle states, completing within **0.000s to 0.001s**. | **High Fidelity:** Maintains **100% critical fact retention** across almost all simulation cycles, ensuring zero information loss. |
-<img width="2777" height="1377" alt="chart3_sleep_latency" src="https://github.com/user-attachments/assets/eda13a09-d419-47bd-bc31-bb93c5db40d6" />
-<img width="2777" height="1377" alt="chart4_retention_rate" src="https://github.com/user-attachments/assets/356dc545-bcb7-4258-b035-2eff5f4ce706" />
-
----
-
-## 📈 Long-Term 100-Day Operational Cost Projection
-Extrapolating this data out over an extended operational lifecycle highlights the extreme commercial viability and token savings of this architecture.
-
-<img width="2778" height="1377" alt="chart6_cost_projection" src="https://github.com/user-attachments/assets/ccfb4b7d-8726-492f-8845-ecb7b1679fea">
-
-By transforming a compounding linear/exponential token curve into a predictable flat cost curve, system sustainability scales indefinitely without budget bloating.
+## Benchmarks
+<img width="1785" height="1329" alt="pillar2_graphrag_benchmark" src="https://github.com/user-attachments/assets/6280835e-18e2-45c1-8115-ec55d19a1c53" />
