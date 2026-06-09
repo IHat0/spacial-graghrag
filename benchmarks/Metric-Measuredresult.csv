@@ -1,0 +1,8 @@
+"Metric","Measured result"
+"Memory footprint","8.14 MB"
+"Avg query latency","1.245 ms"
+"P95 query latency","1.881 ms"
+"Avg mutation latency","0.0017 ms"
+"Avg recalculation latency","0.0102 ms"
+"Avg total reflex latency","0.0119 ms"
+"Payload size","16 tokens"

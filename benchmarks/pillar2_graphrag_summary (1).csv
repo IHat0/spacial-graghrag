@@ -1,0 +1,13 @@
+metric,value,target,pass
+global_nodes,120.0,>=120 incl. local cluster,True
+global_edges,357.0,n/a,True
+large_graph_nodes,10000.0,10000,True
+large_graph_edges,25000.0,25000,True
+memory_footprint_mb,8.139999389648438,<15,True
+avg_query_latency_ms,1.2451273400004084,<2,True
+p95_query_latency_ms,1.8809573499936492,<2,True
+avg_mutation_ms,0.001728620001510232,<5,True
+avg_recalc_ms,0.010172180000912098,<5,True
+avg_total_reflex_ms,0.01190080000242233,<5,True
+payload_tokens,16.0,<50,True
+payload_chars,61.0,informational,True
