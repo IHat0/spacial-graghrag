@@ -121,7 +121,6 @@ Optimizing for compression does not mean sacrificing memory integrity. The conso
 ## 📈 Long-Term 100-Day Operational Cost Projection
 Extrapolating this data out over an extended operational lifecycle highlights the extreme commercial viability and token savings of this architecture.
 
-![100-Day Cost Projection](https://github.com/user-attachments/assets/<img width="2778" height="1377" alt="chart6_cost_projection" src="https://github.com/user-attachments/assets/ccfb4b7d-8726-492f-8845-ecb7b1679fea" />)
-
+<img width="2778" height="1377" alt="chart6_cost_projection" src="https://github.com/user-attachments/assets/ccfb4b7d-8726-492f-8845-ecb7b1679fea">
 
 By transforming a compounding linear/exponential token curve into a predictable flat cost curve, system sustainability scales indefinitely without budget bloating.
